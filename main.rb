@@ -29,7 +29,7 @@ def queuedOrders(data)
     end
 end
 
-queuedOrders(data)["user_2_btc_balance"]
+queuedOrders(data)
 
 # Storing output.json with new queued_orders data
 newData = {
